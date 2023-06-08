@@ -144,7 +144,7 @@ $(".slik-slidr").slick({
 const countdownContainer = document.getElementById("countdown-container");
 
 // Set the target date and time (adjust it according to your needs)
-const targetDate = new Date("2023-06-07T23:59:59").getTime();
+const targetDate = new Date("2023-06-10T23:59:59").getTime();
 
 // Function to initialize the countdown
 function startCountdown() {
