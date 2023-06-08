@@ -16,9 +16,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-hidden">
 
     <div id="box" class="overflow-hidden">
         <div class="preloader-box">
@@ -158,7 +160,8 @@
             <div class="row">
                 <div class="col-lg-6 col-12">
 
-                    <div class="position-relative d-flex justify-content-center h-500 align-items-center">
+                    <div class="position-relative d-flex justify-content-center h-500 align-items-center"
+                        data-aos="fade-right">
                         <span>
                             <svg class="circle-rotate" width="229" height="230" viewBox="0 0 229 230" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +204,7 @@
 
                 </div>
 
-                <div class="col-lg-6 col-12 justify-content-center d-flex flex-column text-center">
+                <div class="col-lg-6 col-12 justify-content-center d-flex flex-column text-center" data-aos="fade-left">
                     <h2 class="ff-family fw-700 fs-50">
                         Our Project
                     </h2>
@@ -219,17 +222,19 @@
 
     <section class="my-5 py-5 position-relative">
         <div class="my-container container d-flex flex-column">
-            <h2 class="text-center mb-5 ff-family fw-700 fs-50">Benefits</h2>
+            <h2 class="text-center mb-5 ff-family fw-700 fs-50" data-aos="zoom-in">Benefits</h2>
 
             <div class="slick-slider">
-                <div class="element element-1 d-flex flex-column align-items-center justify-content-center">
+                <div class="element element-1 d-flex flex-column align-items-center justify-content-center"
+                    data-aos="flip-left" data-duration="1000" data-aos-delay="100">
                     <img src="./assets/images/png/section-3rd-1st-imagee.png" alt="section-3rd-1st-imagee"
                         class="slickk">
                     <p class="text-center ff-family fw-400 fs-18 w-317">Services, Products and Community
                         All in one place!
                     </p>
                 </div>
-                <div class="element element-2 d-flex flex-column align-items-center justify-content-center">
+                <div class="element element-2 d-flex flex-column align-items-center justify-content-center"
+                    data-aos="flip-down" data-duration="1000" data-aos-delay="100">
                     <img src="./assets/images/png/section-3rd-2nd-imagee.png" alt="section-3rd-2nd-imagee"
                         class="slickk">
                     <p class="text-center ff-family fw-400 fs-18 w-272">Selling in crypto will no longer be complicated,
@@ -237,7 +242,8 @@
                         will be safe and
                         reliable.</p>
                 </div>
-                <div class="element element-3 d-flex flex-column align-items-center justify-content-center">
+                <div class="element element-3 d-flex flex-column align-items-center justify-content-center"
+                    data-aos="flip-right" data-duration="1000" data-aos-delay="100">
                     <img src="./assets/images/png/section-3rd-3rd-imagee.png" alt="section-3rd-3rd-imagee"
                         class="slickk">
                     <p class="text-center ff-family fw-400 fs-18 w-272">Buying and getting a real discount is possible?
@@ -278,10 +284,10 @@
         </div>
         <div class="d-flex px-md-4 flex-column flex-md-row">
             <div>
-                <img data-aos="fade-right" data-duration="1000" data-aos-delay="500" class="flow-1st-image w-100"
+                <img data-aos="fade-down-right" data-duration="1000" data-aos-delay="100" class="flow-1st-image w-100"
                     src="./assets/images/png/flow-1st-image.png" alt="flow-1st-image">
             </div>
-            <div data-aos="zoom-in-down" data-duration="1000" data-aos-delay="500"
+            <div data-aos="zoom-in-down" data-duration="1000" data-aos-delay="100"
                 class="d-flex align-items-center flex-column ps-md-4 text-center py-xl-5 mt-5">
                 <h2 class="ff-family fw-700 fs-50 text-white">
                     Whitepaper
@@ -297,7 +303,7 @@
                 <a href="" class="btn-1 d-inline-block mt-4 mb-4">Read WhitePaper</a>
             </div>
             <div>
-                <img data-aos="fade-right" data-duration="1000" data-aos-delay="500" class="flow-1st-image w-100"
+                <img data-aos="fade-down-left" data-duration="1000" data-aos-delay="100" class="flow-1st-image w-100"
                     src="./assets/images/png/flow-2nd-image.png" alt="flow-2nd-image">
             </div>
         </div>
@@ -319,7 +325,8 @@
                 the plans to the
                 public is our way
                 of doing things.</p>
-            <img src="./assets/images/png/round-image.png" alt="round-image" class="w-50 d-flex mx-auto mb-5">
+            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100"
+                src="./assets/images/png/round-image.png" alt="round-image" class="w-50 d-flex mx-auto mb-5">
             <div class="sliderr pt-5">
 
                 <div data-aos="zoom-in-down" data-aos-duration="1000" class="element element-1 sliderrr-1">
@@ -362,10 +369,11 @@
     <!-- //////////////////////////TIMER//////////////////////////////// -->
 
     <section class="bg-flow-layer">
-        <h2 class="ff-family fw-700 fs-30 text-white text-center mx-auto w-609 pt-5 mt-5 mb-5">
+        <h2 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="100"
+            class="ff-family fw-700 fs-30 text-white text-center mx-auto w-609 pt-5 mt-5 mb-5">
             Public Sale 5% in ERC20 & BEP20, 100% for the Community
         </h2>
-        <div class="countdown-container">
+        <div data-aos="zoom-in-down" class="countdown-container">
             <div class="d-flex flex-column align-items-center">
                 <div id="days">0</div>
                 <p class="text-white ff-family fw-500 fs-18">days</p>
@@ -386,7 +394,7 @@
                 <p class="text-white ff-family fw-500 fs-18">Second</p>
             </div>
         </div>
-        <div class="d-flex align-items-center justify-content-center mt-5 mb-5 pb-5">
+        <div data-aos="zoom-in-down" class="d-flex align-items-center justify-content-center mt-5 mb-5 pb-5">
             <a href="" class="btn-1 me-2">BUY
                 WUAO</a>
         </div>
@@ -416,12 +424,17 @@
             Tokenomics
         </h2>
         <div class="position-relative">
-            <img src="./assets/images/png/graph.png" alt="GRAPH" class="d-flex mx-auto w-50">
-            <p class="position-absolute Team-position ff-family fw-700 fs-20">Team</p>
-            <p class="position-absolute buyers-position ff-family fw-700 fs-20 w-195">Buyers/holders/ community</p>
-            <p class="position-absolute subdivided-position ff-family fw-700 fs-20 w-195">Subdivided into 5% Founders
+            <img data-aos="fade-up" data-aos-anchor-placement="top-center" src="./assets/images/png/graph.png"
+                alt="GRAPH" class="d-flex mx-auto w-50">
+            <p data-aos="fade-up" data-aos-anchor-placement="top-center"
+                class="position-absolute Team-position ff-family fw-700 fs-20">Team</p>
+            <p data-aos="fade-up" data-aos-anchor-placement="top-center"
+                class="position-absolute buyers-position ff-family fw-700 fs-20 w-195">Buyers/holders/ community</p>
+            <p data-aos="fade-up" data-aos-anchor-placement="top-center"
+                class="position-absolute subdivided-position ff-family fw-700 fs-20 w-195">Subdivided into 5% Founders
             </p>
-            <p class="position-absolute workers-position ff-family fw-700 fs-20">Workers</p>
+            <p data-aos="fade-up" data-aos-anchor-placement="top-center"
+                class="position-absolute workers-position ff-family fw-700 fs-20">Workers</p>
         </div>
     </section>
 
@@ -429,11 +442,11 @@
 
     <section class="bg-flow-layer pt-5 pb-5 mt-5">
         <div>
-            <h2 class="text-center text-white ff-family fw-700 fs-50 mb-5 mt-3">
+            <h2 data-aos="fade-down" class="text-center text-white ff-family fw-700 fs-50 mb-5 mt-3">
                 Partnership
             </h2>
 
-            <div class="slik-slidr mb-5 mt-2">
+            <div data-aos="zoom-in" class="slik-slidr mb-5 mt-2">
 
                 <div class="element element-1">
                     <img src="./assets/images/png/partnership-section-slick-slider.png"
@@ -486,7 +499,7 @@
         </span>
         <div class="my-container container mt-5 mb-5">
             <div class="row">
-                <div class="col-lg-6 col-12">
+                <div data-aos="zoom-in-right" class="col-lg-6 col-12">
                     <a href="">
                         <img src="./assets/images/svg/logo-with-name.svg" alt="logo-with-name">
                     </a>
@@ -586,7 +599,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-6 col-12">
+                <div data-aos="zoom-in-left" class="col-lg-6 col-12">
 
 
                     <div class="d-flex">
@@ -663,6 +676,13 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/style.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        once: true;
+    </script>
+
 </body>
 
 </html>

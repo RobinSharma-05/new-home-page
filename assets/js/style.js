@@ -5,8 +5,8 @@ setTimeout(() => {
 
     box.style.display = "none";
 
-    Wuaocoin.body.classList.remove("overflow-hidden");
-}, 3000);
+    document.body.classList.remove("overflow-hidden");
+}, 1000);
 
 
 
