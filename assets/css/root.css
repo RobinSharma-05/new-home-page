@@ -120,7 +120,7 @@
 @media (max-width:576px) {
     :root {
         --fs-xxxl: 50px;
-        --fs-xxl: 46px;
+        --fs-xxl: 30px;
         --fs-xl: 24px;
         --fs-xlg: 28px;
         --fs-mlg: 26px;

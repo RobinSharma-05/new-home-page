@@ -130,16 +130,6 @@ $(".slik-slidr").slick({
     ]
 });
 
-
-
-
-
-
-
-
-
-
-
 // Get the countdown container element
 const countdownContainer = document.getElementById("countdown-container");
 
